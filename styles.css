@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    height: 100%;
+}
+
+h1{
+    margin: 0px;
+}
+
+div{
+    display: block;
+}
+
+
+.top-container{
+    display: flex;
+    background-color: black;
+    /* justify-content: space-around; */
+    position: relative;
+}
+
+.top-inner{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    /* position: relative; */
+    padding: 10px 20px;
+    margin-left: 6px;
+}
+
+.top-inner-container{
+
+    background-color: black;
+    align-items: flex-start;
+    margin-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 10px;
+    
+}
+
+.submit-btn {
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    background: #040e14;
+    padding: 12px 12px 12px 12px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .submit-btn:hover {
+    background: #cf2d10;
+    background-image: -webkit-linear-gradient(top, #cf2d10, #3498db);
+    background-image: -moz-linear-gradient(top, #cf2d10, #3498db);
+    background-image: -ms-linear-gradient(top, #cf2d10, #3498db);
+    background-image: -o-linear-gradient(top, #cf2d10, #3498db);
+    background-image: linear-gradient(to bottom, #cf2d10, #3498db);
+    text-decoration: none;
+  }
+
+  .sign-in-btn {
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    background: #288ec9;
+    padding: 12px 40px 12px 40px;
+    text-decoration: none;
+  }
+  
+  .sign-in-btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+  .abstract{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .help-center{
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .search-box{
+    background-color: #DADBF1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 2rem;
+    height: 400px;
+  }
+
+  .top-inner img{
+    height: 30px;
+    padding-right: 10px;
+  }
+
+  .help{
+    border-left: 1px solid white;
+  }
+
+  main{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #search{
+    padding: 10px 250px 10px 250px;
+  }
+
+  .text{
+    font-size: 70px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .abstract-p img {
+    float: left;
+    width: 100px;
+    padding: 30px;
+  }
+  
+  .abstract-p{
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  /* .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+  } */
+
+  .container h1{
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns:  600px 600px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 50px;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+  }
+
+  .container a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+  }
+
+  .account img{
+    float: left;
+    width: 100px;
+    padding: 30px;
+  }
+
+
+  .manage img{
+    float: left;
+    width: 100px;
+    padding: 30px 30px 100px 30px;
+  }
+
+
+  .billing img{
+    float: left;
+    width: 100px;
+    padding: 30px;
+  }
+
+ p{
+    font-size: 20px;
+    margin: 0px;
+ }
+
+ .comment img{
+  float: left;
+  width: 100px;
+  padding: 30px;
+ }
+
+ .authenticate img{
+  float: left;
+  width: 100px;
+  padding: 30px;
+ }
+
+ footer {
+  background-color: #040e14;
+ }
+
+ .bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 150px;
+ }
+
+ .bottom-items{
+  color: white;
+  display: grid;
+  padding: 50px 10px 50px 20px;
+ }
+
+ .bottom-items img{
+  width: 100px;
+  margin-top: 150px;
+ }
+
+ .bottom-items a {
+  text-decoration: none;
+  color: white;
+ }
+
+ .Copyright{
+  margin-left: 300px;
+ }
